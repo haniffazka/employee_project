@@ -1,12 +1,12 @@
 class PoHeader {
-  final String purchaseOrderNo;
-  final String poType;
-  final String currency;
-  final String supplierCode;
-  final String description;
-  final String createdBy;
-  final String confirmedBy;
-  final String maxIdentifierNo;
+  String purchaseOrderNo;
+  String poType;
+  String currency;
+  String supplierCode;
+  String description;
+  String createdBy;
+  String confirmedBy;
+  String maxIdentifierNo;
 
   PoHeader({
     required this.purchaseOrderNo,
