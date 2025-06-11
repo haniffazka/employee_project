@@ -1,15 +1,15 @@
 class PoDetail {
-  final int lineNo;
-  final String itemCode;
-  final String item;
-  final String description;
-  final double quantity;
-  final String uom;
-  final double unitPrice;
-  final double amount;
-  final double discount;
-  final double subtotal;
-  final String expiredDate;
+  int lineNo;
+  String itemCode;
+  String item;
+  String description;
+  double quantity;
+  String uom;
+  double unitPrice;
+  double amount;
+  double discount;
+  double subtotal;
+  String expiredDate;
 
   PoDetail({
     required this.lineNo,

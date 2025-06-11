@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-import 'pages/home_page.dart';
+import 'pages/purchase_order.dart'; 
 
 
 void main() async {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Firebase CRUD',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: HomePage(),
+      home: PurchaseOrderPage(), 
       debugShowCheckedModeBanner: false,
     );
   }
